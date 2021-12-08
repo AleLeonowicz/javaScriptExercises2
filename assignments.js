@@ -1,47 +1,47 @@
-// // function describeCountry(country, population, capitalCity) {
-// //     const countryDescription = `${country} has ${population} million people and its capital city is ${capitalCity}.`;
-// //     return countryDescription;
-// // }
+// function describeCountry(country, population, capitalCity) {
+//     const countryDescription = `${country} has ${population} million people and its capital city is ${capitalCity}.`;
+//     return countryDescription;
+// }
 
-// // const describePoland = describeCountry('Poland', 38, 'Warsaw');
-// // console.log(describePoland);
+// const describePoland = describeCountry('Poland', 38, 'Warsaw');
+// console.log(describePoland);
 
-// // const describeGermany = describeCountry('Germany', 83, 'Berlin');
-// // console.log(describeGermany);
+// const describeGermany = describeCountry('Germany', 83, 'Berlin');
+// console.log(describeGermany);
 
-// // const describeDominicanRepublic = describeCountry('Dominican Republic', 11, 'Santo Domingo');
-// // console.log(describeDominicanRepublic);
-
-
-
-// // function percentageOfWorld1(population) {
-// //     return population / 7900 * 100;
-// // }
-
-// // const percentagePoland = percentageOfWorld1(38);
-// // console.log(percentagePoland);
-
-// // const percentageGermany = percentageOfWorld1(83);
-// // console.log(percentageGermany);
-
-// // const percentageDominicanRepublic = percentageOfWorld1(11);
-// // console.log(percentageDominicanRepublic);
+// const describeDominicanRepublic = describeCountry('Dominican Republic', 11, 'Santo Domingo');
+// console.log(describeDominicanRepublic);
 
 
 
+// function percentageOfWorld1(population) {
+//     return population / 7900 * 100;
+// }
 
-// // const percentageofWorld2 = function (population) {
-// //     return population / 7900 * 100;
-// // }
+// const percentagePoland = percentageOfWorld1(38);
+// console.log(percentagePoland);
 
-// // const percentagePoland2 = percentageofWorld2(38);
-// // console.log(percentagePoland2);
+// const percentageGermany = percentageOfWorld1(83);
+// console.log(percentageGermany);
 
-// // const percentageGermany2 = percentageofWorld2(83);
-// // console.log(percentageGermany2);
+// const percentageDominicanRepublic = percentageOfWorld1(11);
+// console.log(percentageDominicanRepublic);
 
-// // const percentageDominicanRepublic2 = percentageofWorld2(11);
-// // console.log(percentageDominicanRepublic2);
+
+
+
+// const percentageofWorld2 = function (population) {
+//     return population / 7900 * 100;
+// }
+
+// const percentagePoland2 = percentageofWorld2(38);
+// console.log(percentagePoland2);
+
+// const percentageGermany2 = percentageofWorld2(83);
+// console.log(percentageGermany2);
+
+// const percentageDominicanRepublic2 = percentageofWorld2(11);
+// console.log(percentageDominicanRepublic2);
 
 
 // const percentageOfWorld3 = population => population / 7900 * 100;
@@ -132,5 +132,44 @@
 
 // for (rep = 1; rep <= 50; rep++) {
 //     console.log(`Voter number ${rep} is currently voting!`);
-// }
+// };
+
+
+// const populations = [38, 83, 11, 97]
+
+// function percentageOfWorld1(population) {
+//     return population / 7900 * 100;
+// };
+
+
+
+
+// const percentages2 = [];
+
+// for (i = 0; i < populations.length; i++) {
+//     percentages2.push(percentageOfWorld1(populations[i]));
+// };
+
+// console.log(percentages2);
+
+
+
+
+
+// console.log('--- OLD METHOD ---');
+
+
+// const percentages = [percentageOfWorld1(38), percentageOfWorld1(83), percentageOfWorld1(11), percentageOfWorld1(97),];
+
+// console.log(percentages);
+
+// const listOfNeighbours = [['Canada', 'Mexico'], ['Spain'], ['Norway', 'Sweden', 'Russia']];
+
+// for (i = 0; i < listOfNeighbours.length; i++) {
+//     // console.log(listOfNeighbours[i]);
+
+//     for (x = 0; x < listOfNeighbours[i].length; x++) {
+//         console.log(listOfNeighbours[i][x]);
+//     }
+// };
 
